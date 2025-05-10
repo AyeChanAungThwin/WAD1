@@ -6,7 +6,7 @@ namespace WindowsAppDevelopmentVM
 {
     public class DataGridTestVM: ViewModelBase
     {
-        private DataTable _dt;
+        private DataTable _dt = new DataTable();
 
         public DataTable Dt
         {
@@ -20,7 +20,7 @@ namespace WindowsAppDevelopmentVM
         
         public DataGridTestVM()
         {
-            populateDataTable();
+            //populateDataTable();
         }
 
         private void populateDataTable()

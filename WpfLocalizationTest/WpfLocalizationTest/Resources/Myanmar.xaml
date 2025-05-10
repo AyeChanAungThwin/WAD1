@@ -1,0 +1,8 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    <system:String x:Key="Title">အဓိက မျက်နှာစာ</system:String>
+    <system:String x:Key="Greeting">မင်္ဂလာပါ</system:String>
+    <system:String x:Key="English">အင်္ဂလိပ်</system:String>
+    <system:String x:Key="Myanmar">မြန်မာ</system:String>
+</ResourceDictionary>

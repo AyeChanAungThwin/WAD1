@@ -1,0 +1,8 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    <system:String x:Key="Title">MainWindow</system:String>
+    <system:String x:Key="Greeting">Hello</system:String>
+    <system:String x:Key="English">English</system:String>
+    <system:String x:Key="Myanmar">Myanmar</system:String>
+</ResourceDictionary>
