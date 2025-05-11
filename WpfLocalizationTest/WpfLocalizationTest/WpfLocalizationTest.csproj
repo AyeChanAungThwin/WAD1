@@ -70,6 +70,7 @@
         <Page Include="Resources\English.xaml" />
         <Page Include="Resources\Myanmar.xaml" />
         <Page Include="SplashScreen.xaml" />
+        <Page Include="Styles\Style.xaml" />
     </ItemGroup>
     <ItemGroup>
         <Compile Include="Properties\AssemblyInfo.cs">
@@ -90,6 +91,21 @@
     </ItemGroup>
     <ItemGroup>
       <Resource Include="Image\splash.jpg">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Resource>
+    </ItemGroup>
+    <ItemGroup>
+      <Resource Include="Fonts\Short Baby.ttf">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Resource>
+    </ItemGroup>
+    <ItemGroup>
+      <Resource Include="Fonts\noggin_bulb.ttf">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Resource>
+    </ItemGroup>
+    <ItemGroup>
+      <Resource Include="Fonts\WwinTypewriter-extrabold.ttf">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Resource>
     </ItemGroup>

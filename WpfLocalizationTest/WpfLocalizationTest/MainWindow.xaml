@@ -10,16 +10,23 @@
         <Menu>
             <MenuItem 
                 Header="{StaticResource English}"
-                Click="MenuItem_OnClickEnglish"/>
+                Click="MenuItem_OnClickEnglish"
+                Style="{StaticResource MenuItemStyle}"/>
             <MenuItem 
                 Header="{StaticResource Myanmar}"
-                Click="MenuItem_OnClickMyanmar"/>
+                Click="MenuItem_OnClickMyanmar"
+                Style="{StaticResource MenuItemStyle}"/>
         </Menu>
         
         <TextBlock
             Text="{StaticResource Greeting}"
             FontSize="40"
             HorizontalAlignment="Center"
-            VerticalAlignment="Center"/>
+            VerticalAlignment="Center"
+            Style="{StaticResource TextBlockStyle}"/>
+        
+        <Button
+            Content="Click Me!"
+            Style="{StaticResource CustomButtonStyle}"/>
     </Grid>
 </Window>

@@ -18,3 +18,4 @@ E:\WAD\WpfLocalizationTest\WpfLocalizationTest\obj\Debug\WpfLocalizationTest.pdb
 E:\WAD\WpfLocalizationTest\WpfLocalizationTest\obj\Debug\Resources\Myanmar.baml
 E:\WAD\WpfLocalizationTest\WpfLocalizationTest\obj\Debug\SplashScreen.g.cs
 E:\WAD\WpfLocalizationTest\WpfLocalizationTest\obj\Debug\SplashScreen.baml
+E:\WAD\WpfLocalizationTest\WpfLocalizationTest\obj\Debug\Styles\Style.baml

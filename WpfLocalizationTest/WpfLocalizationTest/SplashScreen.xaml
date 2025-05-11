@@ -14,12 +14,20 @@
         <Image
              Source="/Image/splash.jpg"/>
         
-        <Button
+        <!--<Button
             Content="Enter"
             FontSize="40"
             Width="100"
             Margin="0, 0, 0, 20"
             VerticalAlignment="Bottom"
-            Click="ButtonBase_OnClick"/>
+            Click="ButtonBase_OnClick"/>-->
+        
+        <TextBlock
+            x:Name="ShowText"
+            Margin="0, 0, 0, 20"
+            VerticalAlignment="Bottom"
+            HorizontalAlignment="Center"
+            Foreground="White"
+            FontSize="40"/>
     </Grid>
 </Window>
