@@ -1,0 +1,253 @@
+﻿<Window x:Class="Encryptor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Encryptor"
+        xmlns:vm="clr-namespace:Encryptor.ViewModel"
+        mc:Ignorable="d"
+        Title="Encryptor" Height="700" Width="525">
+    <Window.DataContext>
+        <vm:MainVM/>
+    </Window.DataContext>
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        
+        <Grid Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+        
+            <Grid Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                
+                <Grid Row="0">
+                    <StackPanel
+                        Orientation="Vertical"
+                        Margin="10, 10, 10, 0">
+                        <TextBlock
+                            Text="Code 1:"/>
+                        <TextBox
+                            Text="{Binding Code1}"/>
+                    </StackPanel>
+                </Grid>
+                <Grid Row="1">
+                    <StackPanel
+                        Orientation="Vertical"
+                        Margin="10, 10, 10, 0">
+                        <TextBlock
+                            Text="Code 2:"/>
+                        <TextBox
+                            Text="{Binding Code2}"/>
+                    </StackPanel>
+                </Grid>
+                <Grid Row="2">
+                    <StackPanel Orientation="Vertical" Margin="10, 10, 10, 0">
+                        <TextBlock Text="Code 3:"/>
+                        <TextBox Text="{Binding Code3}"/>
+                    </StackPanel>
+                </Grid>
+                <Grid Row="3">
+                    <StackPanel Orientation="Vertical" Margin="10, 10, 10, 0">
+                        <TextBlock Text="Code 4:"/>
+                        <TextBox Text="{Binding Code4}"/>
+                    </StackPanel>
+                </Grid>
+                <Grid Row="4">
+                    <StackPanel Orientation="Vertical" Margin="10, 10, 10, 0">
+                        <TextBlock Text="Code 5:"/>
+                        <TextBox Text="{Binding Code5}"/>
+                    </StackPanel>
+                </Grid>
+                <Grid Row="5">
+                    <StackPanel Orientation="Vertical" Margin="10, 10, 10, 0">
+                        <TextBlock Text="Code 6:"/>
+                        <TextBox Text="{Binding Code6}"/>
+                    </StackPanel>
+                </Grid>
+                <Grid Row="6">
+                    <StackPanel Orientation="Vertical" Margin="10, 10, 10, 0">
+                        <TextBlock Text="Code 7:"/>
+                        <TextBox Text="{Binding Code7}"/>
+                    </StackPanel>
+                </Grid>
+                <Grid Row="7">
+                    <StackPanel Orientation="Vertical" Margin="10, 10, 10, 0">
+                        <TextBlock Text="Code 8:"/>
+                        <TextBox Text="{Binding Code8}"/>
+                    </StackPanel>
+                </Grid>
+                <Grid Row="8">
+                    <StackPanel Orientation="Vertical" Margin="10, 10, 10, 0">
+                        <TextBlock Text="Code 9:"/>
+                        <TextBox Text="{Binding Code9}"/>
+                    </StackPanel>
+                </Grid>
+                <Grid Row="9">
+                    <StackPanel Orientation="Vertical" Margin="10, 10, 10, 0">
+                        <TextBlock Text="Code 10:"/>
+                        <TextBox Text="{Binding Code10}"/>
+                    </StackPanel>
+                </Grid>
+                <Grid Row="10">
+                    <StackPanel Orientation="Vertical" Margin="10, 10, 10, 0">
+                        <TextBlock Text="Code 11:"/>
+                        <TextBox Text="{Binding Code11}"/>
+                    </StackPanel>
+                </Grid>
+                <Grid Row="11">
+                    <StackPanel Orientation="Vertical" Margin="10, 10, 10, 0">
+                        <TextBlock Text="Code 12:"/>
+                        <TextBox Text="{Binding Code12}"/>
+                    </StackPanel>
+                </Grid>
+            </Grid>
+        
+            <Grid Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                
+                <Grid Row="0">
+                    <StackPanel
+                        Orientation="Vertical"
+                        Margin="10, 10, 10, 0">
+                        <TextBlock
+                            Text="Code 13:"/>
+                        <TextBox
+                            Text="{Binding Code13}"/>
+                    </StackPanel>
+                </Grid>
+                <Grid Row="1">
+                    <StackPanel
+                        Orientation="Vertical"
+                        Margin="10, 10, 10, 0">
+                        <TextBlock
+                            Text="Code 14:"/>
+                        <TextBox
+                            Text="{Binding Code14}"/>
+                    </StackPanel>
+                </Grid>
+                <Grid Row="2">
+                    <StackPanel Orientation="Vertical" Margin="10, 10, 10, 0">
+                        <TextBlock Text="Code 15:"/>
+                        <TextBox Text="{Binding Code15}"/>
+                    </StackPanel>
+                </Grid>
+                <Grid Row="3">
+                    <StackPanel Orientation="Vertical" Margin="10, 10, 10, 0">
+                        <TextBlock Text="Code 16:"/>
+                        <TextBox Text="{Binding Code16}"/>
+                    </StackPanel>
+                </Grid>
+                <Grid Row="4">
+                    <StackPanel Orientation="Vertical" Margin="10, 10, 10, 0">
+                        <TextBlock Text="Code 17:"/>
+                        <TextBox Text="{Binding Code17}"/>
+                    </StackPanel>
+                </Grid>
+                <Grid Row="5">
+                    <StackPanel Orientation="Vertical" Margin="10, 10, 10, 0">
+                        <TextBlock Text="Code 18:"/>
+                        <TextBox Text="{Binding Code18}"/>
+                    </StackPanel>
+                </Grid>
+                <Grid Row="6">
+                    <StackPanel Orientation="Vertical" Margin="10, 10, 10, 0">
+                        <TextBlock Text="Code 19:"/>
+                        <TextBox Text="{Binding Code19}"/>
+                    </StackPanel>
+                </Grid>
+                <Grid Row="7">
+                    <StackPanel Orientation="Vertical" Margin="10, 10, 10, 0">
+                        <TextBlock Text="Code 20:"/>
+                        <TextBox Text="{Binding Code20}"/>
+                    </StackPanel>
+                </Grid>
+                <Grid Row="8">
+                    <StackPanel Orientation="Vertical" Margin="10, 10, 10, 0">
+                        <TextBlock Text="Code 21:"/>
+                        <TextBox Text="{Binding Code21}"/>
+                    </StackPanel>
+                </Grid>
+                <Grid Row="9">
+                    <StackPanel Orientation="Vertical" Margin="10, 10, 10, 0">
+                        <TextBlock Text="Code 22:"/>
+                        <TextBox Text="{Binding Code22}"/>
+                    </StackPanel>
+                </Grid>
+                <Grid Row="10">
+                    <StackPanel Orientation="Vertical" Margin="10, 10, 10, 0">
+                        <TextBlock Text="Code 23:"/>
+                        <TextBox Text="{Binding Code23}"/>
+                    </StackPanel>
+                </Grid>
+                <Grid Row="11">
+                    <StackPanel Orientation="Vertical" Margin="10, 10, 10, 0">
+                        <TextBlock Text="Code 24:"/>
+                        <TextBox Text="{Binding Code24}"/>
+                    </StackPanel>
+                </Grid>
+            </Grid>
+        </Grid>
+        
+        <Grid Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            
+            <Grid Column="0">
+                <TextBlock
+                    Text="Salt:"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Right"
+                    Margin="0, 0, 80, 0"/>
+            </Grid>
+            
+            <Grid Column="1">
+                <TextBox
+                    Text="{Binding Salt}"
+                    Width="200"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Left"
+                    Margin="-70, 0, 0, 0"/>
+            </Grid>
+        </Grid>
+        
+        <Grid Row="2">
+            <Button
+                Content="Submit"/>
+        </Grid>
+    </Grid>
+</Window>

@@ -34,3 +34,14 @@ E:\WAD\WindowsAppDevelopmentVM\WindowsAppDevelopmentVM\obj\Debug\WindowsAppDevel
 E:\WAD\WindowsAppDevelopmentVM\WindowsAppDevelopmentVM\obj\Debug\WindowsAppDevelopmentVM.csproj.CoreCompileInputs.cache
 E:\WAD\WindowsAppDevelopmentVM\WindowsAppDevelopmentVM\obj\Debug\WindowsAppDevelopmentVM.exe
 E:\WAD\WindowsAppDevelopmentVM\WindowsAppDevelopmentVM\obj\Debug\WindowsAppDevelopmentVM.pdb
+E:\WAD\WindowsAppDevelopmentVM\WindowsAppDevelopmentVM\bin\Debug\EPPlus.dll
+E:\WAD\WindowsAppDevelopmentVM\WindowsAppDevelopmentVM\bin\Debug\System.IO.FileSystem.Primitives.dll
+E:\WAD\WindowsAppDevelopmentVM\WindowsAppDevelopmentVM\bin\Debug\System.IO.Packaging.dll
+E:\WAD\WindowsAppDevelopmentVM\WindowsAppDevelopmentVM\bin\Debug\EPPlus.xml
+E:\WAD\WindowsAppDevelopmentVM\WindowsAppDevelopmentVM\obj\Debug\WindowsA.F49D354C.Up2Date
+E:\WAD\WindowsAppDevelopmentVM\WindowsAppDevelopmentVM\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+E:\WAD\WindowsAppDevelopmentVM\WindowsAppDevelopmentVM\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+E:\WAD\WindowsAppDevelopmentVM\WindowsAppDevelopmentVM\obj\Debug\WindowsAppDevelopmentVM.csproj.SuggestedBindingRedirects.cache
+E:\WAD\WindowsAppDevelopmentVM\WindowsAppDevelopmentVM\obj\Debug\WindowsAppDevelopmentVM.exe.config
+E:\WAD\WindowsAppDevelopmentVM\WindowsAppDevelopmentVM\bin\Debug\System.Memory.dll
+E:\WAD\WindowsAppDevelopmentVM\WindowsAppDevelopmentVM\bin\Debug\System.Memory.xml

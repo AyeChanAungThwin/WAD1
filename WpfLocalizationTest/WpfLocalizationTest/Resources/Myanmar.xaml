@@ -5,4 +5,6 @@
     <system:String x:Key="Greeting">မင်္ဂလာပါ</system:String>
     <system:String x:Key="English">အင်္ဂလိပ်</system:String>
     <system:String x:Key="Myanmar">မြန်မာ</system:String>
+    
+    <system:String x:Key="BtnClickMe">နှိပ်ပါ</system:String>
 </ResourceDictionary>

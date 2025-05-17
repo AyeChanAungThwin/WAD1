@@ -2,23 +2,43 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     
     <Style x:Key="CustomButtonStyle" TargetType="Button">
-        <Setter Property="Background" Value="Yellow"/>
-        <Setter Property="Foreground" Value="Black"/>
         <Setter Property="FontSize" Value="15"/>
         <Setter Property="FontWeight" Value="ExtraBold"/>
         <Setter Property="Margin" Value="0, 0, 0, 20"/>
         <Setter Property="VerticalAlignment" Value="Bottom"/>
-        <Setter Property="Width" Value="100"/>
-        <Setter Property="Height" Value="30"/>
-        <Setter Property="BorderThickness" Value="2"/>
-        <Setter Property="BorderBrush" Value="#341E21"/>
-        
-        <Style.Triggers>
-            <!--Hover Effect-->
-            <Trigger Property="IsMouseOver" Value="True">
-                <Setter Property="FontSize" Value="20"/>
-            </Trigger>
-        </Style.Triggers>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Grid>
+                        <Image x:Name="ButtonImage"
+                               Height="40"
+                               Width="90"
+                               Source="/Image/btn.png">
+                        </Image>
+                        <TextBlock
+                            Text="{StaticResource BtnClickMe}"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Bottom"
+                            Margin = "0, 0, 0, 10"/>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="ButtonImage"
+                                    Property="Opacity"
+                                    Value="0.8"/>
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter TargetName="ButtonImage"
+                                    Property="Width"
+                                    Value="88"/>
+                            <Setter TargetName="ButtonImage"
+                                    Property="Height"
+                                    Value="38"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
     </Style>
     
     <Style x:Key="TextBlockStyle" TargetType="TextBlock">
@@ -26,6 +46,6 @@
     </Style>
     
     <Style x:Key="MenuItemStyle" TargetType="MenuItem">
-        <Setter Property="FontFamily" Value="/Fonts/#Wwin_TypeWriterExtraBold"/>
+        <Setter Property="FontFamily" Value="/Fonts/#Noggin Bulb"/>
     </Style>
 </ResourceDictionary>

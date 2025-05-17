@@ -1,0 +1,16 @@
+E:\WAD\Encryptor\Encryptor\bin\Debug\Encryptor.exe.config
+E:\WAD\Encryptor\Encryptor\bin\Debug\Encryptor.exe
+E:\WAD\Encryptor\Encryptor\bin\Debug\Encryptor.pdb
+E:\WAD\Encryptor\Encryptor\obj\Debug\Encryptor.csproj.AssemblyReference.cache
+E:\WAD\Encryptor\Encryptor\obj\Debug\MainWindow.g.cs
+E:\WAD\Encryptor\Encryptor\obj\Debug\App.g.cs
+E:\WAD\Encryptor\Encryptor\obj\Debug\Encryptor_MarkupCompile.cache
+E:\WAD\Encryptor\Encryptor\obj\Debug\Encryptor_MarkupCompile.lref
+E:\WAD\Encryptor\Encryptor\obj\Debug\MainWindow.baml
+E:\WAD\Encryptor\Encryptor\obj\Debug\Encryptor.g.resources
+E:\WAD\Encryptor\Encryptor\obj\Debug\Encryptor.Properties.Resources.resources
+E:\WAD\Encryptor\Encryptor\obj\Debug\Encryptor.csproj.GenerateResource.cache
+E:\WAD\Encryptor\Encryptor\obj\Debug\Encryptor.csproj.CoreCompileInputs.cache
+E:\WAD\Encryptor\Encryptor\obj\Debug\Encryptor.exe
+E:\WAD\Encryptor\Encryptor\obj\Debug\Encryptor.pdb
+E:\WAD\Encryptor\Encryptor\obj\Debug\GeneratedInternalTypeHelper.g.cs

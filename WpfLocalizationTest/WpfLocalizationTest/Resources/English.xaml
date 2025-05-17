@@ -5,4 +5,6 @@
     <system:String x:Key="Greeting">Hello</system:String>
     <system:String x:Key="English">English</system:String>
     <system:String x:Key="Myanmar">Myanmar</system:String>
+    
+    <system:String x:Key="BtnClickMe">Click Me!</system:String>
 </ResourceDictionary>
