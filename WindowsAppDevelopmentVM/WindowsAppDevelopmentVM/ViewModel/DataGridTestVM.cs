@@ -1,6 +1,9 @@
 ﻿using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Data;
+using System.Windows.Input;
 using WindowsAppDevelopmentVM.Utils;
+using WindowsAppDevelopmentVM.View;
 
 namespace WindowsAppDevelopmentVM
 {
@@ -17,10 +20,37 @@ namespace WindowsAppDevelopmentVM
                 OnPropertyChanged();
             }
         }
+
+        private ObservableCollection<Person> _ppl = new ObservableCollection<Person>();
+
+        public ObservableCollection<Person> Ppl
+        {
+            get => _ppl;
+            set
+            {
+                _ppl = value;
+                OnPropertyChanged();
+            }
+        }
+        
+        public ICommand AddPersonBtn { get; set; }
         
         public DataGridTestVM()
         {
+            AddPersonBtn = new RelayCommand(OnAddingPersonBtn, IsAccessible);
             //populateDataTable();
+        }
+
+        private void OnAddingPersonBtn(object obj)
+        {
+            var win = new AddPersonWindow();
+            win.setVM(this);
+            win.Show();
+        }
+
+        private bool IsAccessible(object obj)
+        {
+            return true;
         }
 
         private void populateDataTable()

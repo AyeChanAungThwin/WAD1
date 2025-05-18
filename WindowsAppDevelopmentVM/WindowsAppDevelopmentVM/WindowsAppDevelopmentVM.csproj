@@ -75,10 +75,14 @@
         <Compile Include="Person.cs" />
         <Compile Include="Utils\DataTableUtils.cs" />
         <Compile Include="Utils\ExcelUtils.cs" />
+        <Compile Include="Utils\FileDialogUtils.cs" />
         <Compile Include="ViewModel\DataGridTestVM.cs" />
         <Compile Include="ViewModel\MainVM.cs" />
         <Compile Include="ViewModel\RelayCommand.cs" />
         <Compile Include="ViewModel\ViewModelBase.cs" />
+        <Compile Include="View\AddPersonWindow.xaml.cs">
+          <DependentUpon>AddPersonWindow.xaml</DependentUpon>
+        </Compile>
         <Page Include="DataGridTestWindow.xaml" />
         <Page Include="MainWindow.xaml">
             <Generator>MSBuild:Compile</Generator>
@@ -92,6 +96,7 @@
             <DependentUpon>MainWindow.xaml</DependentUpon>
             <SubType>Code</SubType>
         </Compile>
+        <Page Include="View\AddPersonWindow.xaml" />
     </ItemGroup>
     <ItemGroup>
         <Compile Include="Properties\AssemblyInfo.cs">

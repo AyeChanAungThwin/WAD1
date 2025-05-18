@@ -45,3 +45,5 @@ E:\WAD\WindowsAppDevelopmentVM\WindowsAppDevelopmentVM\obj\Debug\WindowsAppDevel
 E:\WAD\WindowsAppDevelopmentVM\WindowsAppDevelopmentVM\obj\Debug\WindowsAppDevelopmentVM.exe.config
 E:\WAD\WindowsAppDevelopmentVM\WindowsAppDevelopmentVM\bin\Debug\System.Memory.dll
 E:\WAD\WindowsAppDevelopmentVM\WindowsAppDevelopmentVM\bin\Debug\System.Memory.xml
+E:\WAD\WindowsAppDevelopmentVM\WindowsAppDevelopmentVM\obj\Debug\View\AddPersonWindow.g.cs
+E:\WAD\WindowsAppDevelopmentVM\WindowsAppDevelopmentVM\obj\Debug\View\AddPersonWindow.baml

@@ -11,7 +11,39 @@
     </Window.DataContext>
     
     <Grid>
-        <DataGrid
-            ItemsSource="{Binding Dt}"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <Grid Row="0">
+            <Menu>
+                <MenuItem
+                    Header="File">
+                    <MenuItem Header="Save as Excel" Click="MenuItem_OnClickSaveExcel"/>
+                </MenuItem>
+                
+                <MenuItem
+                    Header="Tools">
+                    <MenuItem Header="Delete Selected Rows" Click="MenuItem_OnClickDeleteSelectedRow"/>
+                </MenuItem>
+            </Menu>
+        </Grid>
+        
+        <Grid Row="1">
+            <DataGrid
+                x:Name="myDataGrid"
+                ItemsSource="{Binding Dt}"/>
+        
+            <Button
+                Content="+"
+                Width="50"
+                Height="50"
+                FontSize="30"
+                HorizontalAlignment="Right"
+                Margin="0, 0, 10, 0"
+                Opacity="0.8"
+                Command="{Binding AddPersonBtn}"/>
+        </Grid>
     </Grid>
 </Window>

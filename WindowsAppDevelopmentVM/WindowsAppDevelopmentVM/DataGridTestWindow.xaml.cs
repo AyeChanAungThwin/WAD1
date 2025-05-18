@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Linq;
 using System.Reflection;
 using System.Windows;
 using System.Windows.Shapes;
@@ -30,6 +31,11 @@ namespace WindowsAppDevelopmentVM
             row["Age"] = prn2.Age;
 
             _vm.Dt.Rows.Add(row);*/
+            
+        }
+
+        public void anotherTest()
+        {
             var systemPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
             var filePath = Path.Combine(systemPath, "test-excel.xlsx");
 
@@ -80,6 +86,40 @@ namespace WindowsAppDevelopmentVM
         public DataGridTestVM getVM()
         {
             return _vm;
+        }
+
+        private void MenuItem_OnClickSaveExcel(object sender, RoutedEventArgs e)
+        {
+            /*var systemPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+            var filePath = Path.Combine(systemPath, "test-excel.xlsx"); //C:\Users\
+            ExcelUtils.saveToExcel(_vm.Dt, filePath);
+
+            MessageBox.Show($"{filePath}\nSuccessfully saved to Excel file!");*/
+            FileDialogUtils.saveFileDialogueDataTable(getVM());
+        }
+
+        private void MenuItem_OnClickDeleteSelectedRow(object sender, RoutedEventArgs e)
+        {
+            var selectedIndices = myDataGrid.SelectedItems
+                .Cast<object>()
+                .Select(item => myDataGrid.Items.IndexOf(item))
+                .ToList();
+
+            if (selectedIndices.Count <= 0) return;
+
+            var rowToDelete = new List<DataRow>();
+            
+            foreach (var index in selectedIndices)
+            {
+                var dataRow = getVM().Dt.Rows[index];
+                rowToDelete.Add(dataRow);
+            }
+
+            foreach (var row in rowToDelete)
+            {
+                getVM().Dt.Rows.Remove(row);
+            }
+            getVM().Ppl.Clear();
         }
     }
 }
